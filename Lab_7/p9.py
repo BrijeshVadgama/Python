@@ -2,7 +2,6 @@
 # Sample Items : green-red-yellow-black-white
 # Expected Result : black-green-red-white-yellow
 
-# Hyphen-separated sequence sorting
 input_sequence = input("Enter a hyphen-separated sequence of words: ")
 words = input_sequence.split("-")
 words.sort()
